@@ -4,7 +4,7 @@ body{
 nav{
     width: 100%;
     height: 60px;
-    background: #2d7d3d;
+    background: #207ce5;
     }
 
 .logo{
@@ -32,24 +32,34 @@ nav{
 }   .main{
     width: 100%;
     height: calc(100% - 60px);
-    background: url(../img/%5B%5B%5B.jpg);
+    background: url(../img/1613276792_3-p-sinii-fon-poligonalnii-3.jpg);
+    background-repeat: no-repeat;
 }
 .title__container{
     float: left;
-    margin: 430px 0px 0px;
-    color: #6d3fa6;
     text-align: center;
+    margin: 300px 0px 0px 600px;
+    color: #6d3fa6;
     
 }
 .title__container h1{
-    font-size: 60px;
+    font-size: 100px;
     font-weight: bold;
+    font-family: 'Christmas ScriptC';
+    src: local('Christmas ScriptC'), local('ChristmasScriptC'), url('christmasscriptc.woff2') format('woff2'), url('christmasscriptc.woff') format('woff'), url('christmasscriptc.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    
     
 }
 .title__container h4{
     margin-top: 40px;
-    font-size: 25px;
-    color: #4a1091
+    font-size: 30px;
+    color: #4a1091;
+    font-family: 'Christmas ScriptC';
+    src: local('Christmas ScriptC'), local('ChristmasScriptC'), url('christmasscriptc.woff2') format('woff2'), url('christmasscriptc.woff') format('woff'), url('christmasscriptc.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
     
 }
 .title__container input{
@@ -60,15 +70,49 @@ nav{
     border-radius: 5px;
     color: #211530;
     font-size: 15px;
-    padding: 0px 16px;
+    padding: 0px 10px;
     margin: 50px 14px 0px 14px;
+    font-family: 'Christmas ScriptC';
+    src: local('Christmas ScriptC'), local('ChristmasScriptC'), url('christmasscriptc.woff2') format('woff2'), url('christmasscriptc.woff') format('woff'), url('christmasscriptc.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
     
-    
-    
+   
+  
 }
-.title__container h2{
-    margin-top: 40px;
-    padding-left: 40px;
-    
-    
+
+ .about_me{
+  font-size: 30px;
+  margin-top: 40px;
+  text-align: center; 
 }
+
+.about_me0{
+  margin-top: 40px;
+  padding-left: 100px;
+  margin-top: 40px; 
+  width: 300px;
+  font-size: 20px;
+
+}
+.about_me1{
+  margin-top: 40px;
+  padding-left: 100px;
+  margin-top: 40px; 
+  width: 300px;
+  font-size: 15px;  
+}    
+
+    
+.example-string1{
+ font-size: 20px;
+ margin-top: 40px;
+ text-align: center;   
+}
+
+.Mydiv{
+   margin-top: 40px;
+   padding-left: 100px;
+}
+
+
